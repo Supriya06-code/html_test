@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/contact-me">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="name" required= true><br>
+        <label for="password">Password:</label>
+       <input id="password" type="password" placeholder="password"><br>
+       Date: <input type="date"><br>
+       File: <input type="file"><br>
+       Color:<input type="color"><br>
+       Range:<input type="range"><br>
+
+       <!-- Radiobutton -->
+      <label for="Male">Male:</label> 
+       <input type="radio" id="Male" name="gender" value="Male"/>
+       <label for="Female">Female:</label>
+       <input type="radio" id="Female" name="gender" value="Female"/>
+       <label for="Other">Other:</label>
+       <input type="radio" id="Other" name="gender" value="Other"/><br>
+
+       <!-- Checkbox -->
+       <label>Language:</label>
+       <label for="C">C</label>
+       <input type="checkbox" id="C" name="lang" value="C"/>
+       <label for="Java">Java</label>
+       <input type="checkbox" id="Java" name="lang" value="Java"/>
+       <label for="Python">Python</label>
+       <input type="checkbox" id="Python" name="lang" value="Python"/><br><br>
+
+       <!-- Dropdown -->
+        <label for="country">Country</label>
+       <select name="country" id="country">
+    <option value="India">India</option>
+    <option value="China">China</option>
+    <option value="Russia">Russia</option>
+    <option value="Other">Other</option>
+</select>
+<br><br>
+
+<!-- Textarea -->
+ <textarea name="story" id="story" cols="20" rows="4">Please write a story</textarea>
+<br><br>
+       Save:<input type="button" value="Save"><br><br>
+        Submit:<input type="submit" value="Submit">
+    </form>
+</body>
+</html>
